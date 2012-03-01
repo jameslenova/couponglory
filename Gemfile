@@ -11,7 +11,8 @@ gem 'simple_form', '1.5.1'
 gem 'jquery-rails', '1.0.14'
 
 platform :ruby do
-  gem 'mysql2', '~> 0.2.7'
+  gem 'mysql2', '~> 0.3.7', :group => :production
+  #gem 'mysql2', '~> 0.2.7'
   gem 'sqlite3' 
   gem 'unicorn'
 end
